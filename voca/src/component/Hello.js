@@ -3,6 +3,7 @@
 // };
 
 import World from "./World";
+import styles from"./Hello.module.css";
 
 // export default Hello;
 
@@ -15,7 +16,6 @@ export default function Hello() {
                     marginBottom: '50px',
                     opacity: 1,
                 }}>Hello</h1>
-                <World/>
-                <World/>
+                <div className={styles.box}></div>
             </div>
 }
